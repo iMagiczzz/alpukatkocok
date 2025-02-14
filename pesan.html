@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Memesan alpukat kocok khas medan</title>
+</head>
+<style>
+    body{
+background-color: white;
+
+    }
+table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        
+        td {
+            padding: 8px;
+        }   
+
+        button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+</style>
+<body>
+
+    <form method="prosesForm.php" action="index.html">
+	<fieldset>
+    <h1>Memesan alpukat kocok khas medan</h1>
+ <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" required /><br /></td>
+                </tr>
+                <tr>
+                    <td>No. telepon</td>
+                    <td>:</td>
+                    <td><input type="number" name="telp" required /></td>
+                </tr>
+                    <tr>
+                    <td>Alamat rumah</td>
+                    <td>:</td>
+                    <td><input type="text" name="address" required /></td>
+                </tr>
+        
+                <tr>
+                    <td><input type="submit" name="submit" value="SUBMIT" /></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+              </table>
+</fieldset>
+            </form>
+            
+            <button onclick="window.location.href='index.html'">Kembali</button>
+</body>
+</html>
